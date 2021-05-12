@@ -1,0 +1,124 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: var(--vermelho);
+    margin: 10px 30px;
+    display: inline-block;
+}
+
+body{
+    background-color: var(--preto);
+    color: #fff;
+}
+
+header nav a,.menu_pesquisa a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    color: var(--cinza);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div .container {
+    margin-left: 30px ;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu_pesquisa img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+/* filme principal */
+.filme_principal {
+    font-size: 18px;
+    height: 400px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}   
+
+.filme_principal .container {
+    width: 45%;
+}
+.title {
+    font-size: 45px;
+    margin-top: 15%;
+}
+
+.description {
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+button {
+    font-family: sans-serif;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-right:15px ;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+.em_alta {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    transform: scale(0.96);
+}
+
+.box-filme:hover {
+    transform: scale(1.05);
+    transition: all ease 0.2s;
+}
