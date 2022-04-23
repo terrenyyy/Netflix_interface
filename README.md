@@ -7,6 +7,3 @@ coloquei alguns filmes e animes mas isso vai de cada um que quiser adicionar a s
 vale lembrar utilizei Jquery para fazer o scroll dos filmes(mesmo sendo algo que não é muito usado,é bom revisar e pelo menos saber da existência)
 
 e fora isso... VEJAM O SNYDER CUT!!!
-
-teste
-
